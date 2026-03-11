@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/share/nvm/versions/node/v4.9.1/bin/node',
+1 verbose cli   '/home/codespace/nvm/current/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node@13.1.6' ]
+2 info using npm@2.15.11
+3 info using node@v4.9.1
+4 verbose install initial load of /workspaces/clone-tabnews/package.json
+5 verbose installManyTop reading scoped package data from /workspaces/clone-tabnews/node_modules/next/package.json
+6 verbose installManyTop reading scoped package data from /workspaces/clone-tabnews/node_modules/react/package.json
+7 verbose installManyTop reading scoped package data from /workspaces/clone-tabnews/node_modules/react-dom/package.json
+8 verbose installManyTop reading scoped package data from /workspaces/clone-tabnews/node_modules/sass/package.json
+9 verbose readDependencies loading dependencies from /workspaces/clone-tabnews/package.json
+10 silly cache add args [ 'node@13.1.6', null ]
+11 verbose cache add spec node@13.1.6
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'node@13.1.6',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'node',
+12 silly cache add   rawSpec: '13.1.6',
+12 silly cache add   spec: '13.1.6',
+12 silly cache add   type: 'version' }
+13 silly addNamed node@13.1.6
+14 verbose addNamed "13.1.6" is a plain semver version for node
+15 silly mapToRegistry name node
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry data Result {
+18 silly mapToRegistry   raw: 'node',
+18 silly mapToRegistry   scope: null,
+18 silly mapToRegistry   name: 'node',
+18 silly mapToRegistry   rawSpec: '',
+18 silly mapToRegistry   spec: 'latest',
+18 silly mapToRegistry   type: 'tag' }
+19 silly mapToRegistry uri https://registry.npmjs.org/node
+20 verbose addNameVersion registry:https://registry.npmjs.org/node not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/node
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 9:07:58 PM
+24 verbose request id e17445448f2cfa25
+25 verbose etag W/"8e8d2a3e1a5f1f94d432cf40ebb3d947"
+26 verbose lastModified Wed, 04 Feb 2026 00:44:50 GMT
+27 http request GET https://registry.npmjs.org/node
+28 http 304 https://registry.npmjs.org/node
+29 verbose headers { date: 'Fri, 06 Feb 2026 21:07:58 GMT',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   server: 'cloudflare',
+29 verbose headers   'cf-ray': '9c9d9ec26acdd6ed-IAD',
+29 verbose headers   'cf-cache-status': 'HIT',
+29 verbose headers   'access-control-allow-origin': '*',
+29 verbose headers   age: '152',
+29 verbose headers   'cache-control': 'public, max-age=300',
+29 verbose headers   etag: '"8e8d2a3e1a5f1f94d432cf40ebb3d947"',
+29 verbose headers   'last-modified': 'Wed, 04 Feb 2026 00:44:50 GMT',
+29 verbose headers   vary: 'Accept-Encoding',
+29 verbose headers   'set-cookie': [ '_cfuvid=6bIpRLy.pbIBvEqNay4ypaYY78MC17pxolalnv4g9_k-1770412078482-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ] }
+30 silly get cb [ 304,
+30 silly get   { date: 'Fri, 06 Feb 2026 21:07:58 GMT',
+30 silly get     connection: 'keep-alive',
+30 silly get     server: 'cloudflare',
+30 silly get     'cf-ray': '9c9d9ec26acdd6ed-IAD',
+30 silly get     'cf-cache-status': 'HIT',
+30 silly get     'access-control-allow-origin': '*',
+30 silly get     age: '152',
+30 silly get     'cache-control': 'public, max-age=300',
+30 silly get     etag: '"8e8d2a3e1a5f1f94d432cf40ebb3d947"',
+30 silly get     'last-modified': 'Wed, 04 Feb 2026 00:44:50 GMT',
+30 silly get     vary: 'Accept-Encoding',
+30 silly get     'set-cookie': [ '_cfuvid=6bIpRLy.pbIBvEqNay4ypaYY78MC17pxolalnv4g9_k-1770412078482-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ] } ]
+31 verbose etag https://registry.npmjs.org/node from cache
+32 verbose get saving node to /home/codespace/.npm/registry.npmjs.org/node/.cache.json
+33 verbose correctMkdir /home/codespace/.npm correctMkdir not in flight; initializing
+34 verbose stack Error: version not found: node@13.1.6
+34 verbose stack     at setData (/usr/local/share/nvm/versions/node/v4.9.1/lib/node_modules/npm/lib/cache/add-named.js:137:12)
+34 verbose stack     at RES (/usr/local/share/nvm/versions/node/v4.9.1/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+34 verbose stack     at f (/usr/local/share/nvm/versions/node/v4.9.1/lib/node_modules/npm/node_modules/once/once.js:25:25)
+34 verbose stack     at fixName (/usr/local/share/nvm/versions/node/v4.9.1/lib/node_modules/npm/lib/cache/add-named.js:29:5)
+34 verbose stack     at saved (/usr/local/share/nvm/versions/node/v4.9.1/lib/node_modules/npm/lib/cache/caching-client.js:173:7)
+34 verbose stack     at /usr/local/share/nvm/versions/node/v4.9.1/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:233:18
+34 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+35 verbose statusCode 404
+36 verbose cwd /workspaces/clone-tabnews
+37 error Linux 6.8.0-1030-azure
+38 error argv "/usr/local/share/nvm/versions/node/v4.9.1/bin/node" "/home/codespace/nvm/current/bin/npm" "install" "node@13.1.6"
+39 error node v4.9.1
+40 error npm  v2.15.11
+41 error version not found: node@13.1.6
+42 error If you need help, you may report this error at:
+42 error     <https://github.com/npm/npm/issues>
+43 verbose exit [ 1, true ]
