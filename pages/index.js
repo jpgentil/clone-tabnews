@@ -1,5 +1,5 @@
 function Home(){
-    return <h1>o gabryel da muito a bundinha</h1>
+    return <h1>vitorinha vitorinha, se você me ama dá uma risadinha!</h1>
 }
 
 export default Home; 
